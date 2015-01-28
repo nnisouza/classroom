@@ -1,3 +1,6 @@
 $(window).load(function() {
-    $('body').fadeIn('slow');
+    $('body').fadeIn('slow', function() {
+        $('#holder').removeClass('hidden');
+        $('#holder').addClass('animated fadeInLeft');
+    });
 });

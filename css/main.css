@@ -58,10 +58,12 @@ html,
     height: 100%;
 }
 body{
-    background: url('../img/bg.jpg');
-    background-size: cover;
     font-family: 'Raleway';
     display: none;
+}
+.wrapper{
+    background: url('../img/bg.jpg');
+    background-size: cover;
 }
 .wrapper .half{
     width: 50%;
