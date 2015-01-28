@@ -61,6 +61,7 @@ body{
     background: url('../img/bg.jpg');
     background-size: cover;
     font-family: 'Raleway';
+    display: none;
 }
 .wrapper .half{
     width: 50%;
