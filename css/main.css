@@ -69,6 +69,8 @@ body{
     width: 50%;
     height: 100%;
     position: relative;
+    float: left;
+    overflow: hidden;
 }
 .wrapper .half .formBlock{
     width: 325px;
@@ -83,6 +85,9 @@ body{
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+.wrapper .half.right .formBlock{
+    height: 136px;
+}
 .wrapper .half .formBlock h1{
     font-weight: 400;
     font-size: 30.6px;
@@ -95,6 +100,15 @@ body{
 }
 .wrapper .half .formBlock h1 span{
     color: #1abc9c;
+}
+.wrapper .half .formBlock h2{
+    font-family: 'Raleway';
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 .wrapper .half .formBlock form .custom{
     position: relative;
@@ -173,7 +187,7 @@ body{
 .wrapper .half .formBlock form input[type="checkbox"] + .checkbox-label:empty:before {
     margin-right: 0;
 }
-.wrapper .half .formBlock form button{
+.wrapper button{
     background-color: rgb(26, 188, 156);
     width: 325px;
     height: 52px;
