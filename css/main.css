@@ -62,7 +62,7 @@ body{
     display: none;
 }
 .wrapper{
-    background: url('../img/bg.jpg');
+    background: url('../img/bg.jpg') center center;
     background-size: cover;
 }
 .wrapper .half{
@@ -207,6 +207,44 @@ body{
 
 
 
+@media only screen and (max-width: 695px) {
+    .wrapper{
+        overflow: scroll;
+    }
+    .wrapper .half{
+        width: 100%;
+        float: none;
+        height: auto;
+        padding: 20px 0;
+    }
+    .wrapper .half .formBlock {
+        width: 100%;
+        height: 288px;
+        position: inherit;
+         left: auto; 
+         top: auto; 
+         -webkit-transform: translate(0, 0); 
+        -moz-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+         transform: translate(0, 0);
+    }
+    .wrapper .half .formBlock h1 {
+        font-size: 27px;
+        text-align: center;
+    }
+    .wrapper .half .formBlock h2{
+        font-size: 16px;
+    }
+    .wrapper .half .formBlock{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .wrapper .half .formBlock form .custom input,
+    .wrapper button{
+        width: 100%;
+    }
+}
 
 
 
